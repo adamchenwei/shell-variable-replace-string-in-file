@@ -4,4 +4,4 @@ echo $myip
 echo 'ip above'
 
 #mac
-sed -i -e "s/proxy_pass http:\/\/myip\/api\/login;/proxy_pass http:\/\/"$myip":9010\/api\/login;/g" targetfile.txt
+sed -i -e "s/proxy_pass http:\/\/myip:9010\/api\/login;/proxy_pass http:\/\/"$myip":9010\/api\/login;/g" targetfile.txt

@@ -1,1 +1,1 @@
-proxy_pass http://myip/api/login;
+        proxy_pass http://myip:9010/api/login;
