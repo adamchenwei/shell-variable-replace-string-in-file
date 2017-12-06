@@ -1,1 +1,1 @@
-MyIp is my life
+proxy_pass http://10.40.4.134:9010/api/login;
